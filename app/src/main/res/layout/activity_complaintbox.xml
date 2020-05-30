@@ -1,0 +1,112 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <TableLayout
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:gravity="center"
+      android:orientation="horizontal">
+
+      <TableRow android:gravity="center"
+          android:layout_marginRight="20dp"
+          android:layout_marginLeft="80dp">
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="40dp"
+              android:text="Date:"
+              android:inputType="date"
+              android:textColor="#000000"
+              android:gravity="center"
+              android:layout_marginLeft="40dp"
+              android:textStyle="bold"
+              android:textSize="25dp"/>
+          <EditText
+              android:layout_height="40dp"
+              android:layout_width="150dp"
+              android:paddingLeft="20dp"
+              android:textSize="20dp"
+              android:layout_marginRight="50dp"
+              android:layout_marginLeft="10dp"
+              android:textStyle="bold"
+              android:background="@drawable/background"
+              android:id="@+id/date"/>
+
+      </TableRow>
+  </TableLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"
+          android:layout_marginBottom="25dp"
+          android:orientation="vertical"
+          android:gravity="center">
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Subject:"
+              android:textColor="#000000"
+              android:textSize="20dp"
+              android:textStyle="bold"
+              android:layout_marginLeft="20dp"/>
+          <EditText
+              android:layout_width="340dp"
+              android:layout_height="40dp"
+              android:paddingLeft="15dp"
+              android:paddingRight="15dp"
+              android:background="@drawable/background"
+              android:id="@+id/subject"/>
+
+      </LinearLayout>
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="Complaints"
+        android:gravity="center_vertical"
+         android:layout_gravity="center_vertical"
+        android:textColor="#0B0B0B"
+        android:textSize="20dp"/>
+    <EditText
+        android:layout_width="340dp"
+        android:layout_height="180dp"
+        android:padding="15dp"
+        android:id="@+id/complaint1"
+        android:background="@drawable/background"/>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:stretchColumns="1">
+        <TableRow android:gravity="center">
+            <Button
+                android:id="@+id/submit"
+                android:background="@drawable/btncolor"
+                android:layout_width="160dp"
+                android:layout_height="50dp"
+                android:textSize="15dp"
+                android:text="Submit"/>
+
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19dp"
+        android:textStyle="italic"
+        android:text="View all complaints"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"
+        android:textColor="#1938FF"
+        android:id="@+id/viewall"/>
+
+
+
+
+       </LinearLayout>

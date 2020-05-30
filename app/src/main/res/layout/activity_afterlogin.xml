@@ -1,0 +1,78 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bkgrnd"
+    android:layout_marginTop="0dp"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order Medicine"
+        android:background="@drawable/btncolor"
+        android:layout_marginTop="100dp"
+        android:id="@+id/buy"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Complaint"
+        android:background="@drawable/btncolor"
+        android:id="@+id/complaint"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btncolor"
+        android:id="@+id/status"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+        <TableLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="2"
+            android:layout_marginTop="160dp">
+
+            <TableRow>
+
+                <Button android:layout_height="80dp"
+                    android:layout_width="130dp"
+                    android:text="Home"
+                    android:background="#D6D9EB"
+                    android:id="@+id/home"/>
+
+                <Button android:layout_height="80dp"
+                    android:layout_width="130dp"
+                    android:text="My Order"
+                    android:layout_marginLeft="5dp"
+                    android:background="#D6D9EB"
+                    android:id="@+id/myorder"/>
+
+                <Button android:layout_height="80dp"
+                    android:layout_width="110dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="My Profile"
+                    android:background="#D6D9EB"
+                    android:id="@+id/myprofile"/>
+
+
+            </TableRow>
+
+        </TableLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

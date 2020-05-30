@@ -1,0 +1,26 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_gravity="center"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About MEDIZIA"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="35dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginVertical="30dp"
+
+        android:layout_marginHorizontal="50dp"
+        android:text="MEDIZIA is an Online Medicine Supply Application for Pain and Paliative Patients.This is a Voluntary Service by NSS unit of Mahathma Gandhi College Iritty.The main moto is to serve pain and paliative patients that who are not able to buy medicines by their own"
+    />
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.medizia">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Adminlogin"></activity>
+        <activity android:name=".volloginpg" />
+        <activity android:name=".aftervollogin" />
+        <activity android:name=".volunteerlogin" />
+        <activity android:name=".aboutpg" />
+        <activity android:name=".contactpg" />
+        <activity android:name=".startingpage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".addvolunter" />
+        <activity android:name=".viewvolunteers" />
+        <activity android:name=".vieworder" />
+        <activity android:name=".afteradminlogin" />
+        <activity android:name=".Delivarypage" />
+        <activity android:name=".myprofile" />
+        <activity android:name=".myorder" />
+        <activity android:name=".complaintbox" />
+        <activity android:name=".medicinedetails" />
+        <activity android:name=".otppage" />
+        <activity android:name=".afterlogin" />
+        <activity android:name=".Signuppage" />
+        <activity android:name=".Loginpage" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

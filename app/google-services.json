@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "182435954231",
+    "firebase_url": "https://medizia-d1ad8.firebaseio.com",
+    "project_id": "medizia-d1ad8",
+    "storage_bucket": "medizia-d1ad8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182435954231:android:60fd03e13d5f4abe4e49b2",
+        "android_client_info": {
+          "package_name": "com.example.medizia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182435954231-mt5rcsses1b97gibb1sukm95btj239vm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.medizia",
+            "certificate_hash": "a25250a0a2c690d1dfa31b5f69d2e6e217a51e35"
+          }
+        },
+        {
+          "client_id": "182435954231-j6a9g5qrc2v5qcihcetqs886n55r53ko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1nAF8GDl-_2LSkI6gGH-lnnStqRxmyik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182435954231-j6a9g5qrc2v5qcihcetqs886n55r53ko.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
